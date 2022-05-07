@@ -72,15 +72,16 @@ h2 {
 a {
   color: var(--accent-blue);
   transition: all 0.3s ease 0s;
-}
-
-a:visited {
-  color: var(--accent-blue);
+  text-decoration: none;
 }
 
 a:hover {
   color: var(--accent-lighter-blue);
   cursor: pointer;
+}
+
+.on-page {
+  text-decoration: underline;
 }
 
 /* John Cena */
