@@ -1,8 +1,9 @@
 /* ~~~ Colors ~~~ */
 
 :root {
-  --bg-color: hsla()
-  --text-color: hsla()
+  --bg-color: hsla(160, 20%, 99%, 1);
+  --text-color: hsla(0, 0%, 10%, 1);
+  --text-color-lighter: hsla(0, 0%, 50%, 1);
 }
 
 
@@ -20,6 +21,7 @@
   /* Global Styles */
   font-family: 'Lato', sans-serif;
   background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 /* ~~~ Grid ~~~ */
@@ -63,12 +65,20 @@ h2 {
   margin-top: 10px;
 }
 
-
-/* John Cena Image */
-.John-Cena {
+/* John Cena */
+.john-cena-container {
   float: right;
-  border-radius: 15px;
   margin-left: 20px;
+}
+
+.john-cena {
+  border-radius: 15px;
+}
+
+figcaption {
+  font-size: 0.8em;
+  color: var(--text-color-lighter);
+  text-align: center;
 }
 
 /* Skill Logo Styling */
