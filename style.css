@@ -4,6 +4,7 @@
   --bg-color: hsla(160, 20%, 99%, 1);
   --text-color: hsla(0, 0%, 10%, 1);
   --text-color-lighter: hsla(0, 0%, 50%, 1);
+  --accent-blue: hsla(230, 44%, 41%, 1);
 }
 
 
@@ -63,6 +64,14 @@ nav ul li {
 h2 {
   margin-bottom: 10px;
   margin-top: 10px;
+}
+
+a {
+  color: var(--accent-blue);
+}
+
+a:visited {
+  color: var(--accent-blue);
 }
 
 /* John Cena */
