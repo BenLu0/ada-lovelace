@@ -25,16 +25,16 @@
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.45em;
+  scroll-behavior: smooth;
 }
 
-/* ~~~ Grid ~~~ */
+html {
+  height: 100%;
+}
+
 body {
-  display: grid;
-  grid-template-columns: 1fr minmax(0, 10in) 1fr;
-}
-
-body * {
-  grid-column: 2;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 /* ~~~ Styles ~~~ */
