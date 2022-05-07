@@ -34,15 +34,27 @@ body * {
 /* ~~~ Styles ~~~ */
 
 /* Navigation Bar */
+nav {
+  padding: 2vh 0;
+  align-items: center;
+  display: flex;
+}
+
+h1 {
+  display: inline;
+}
+
 nav ul {
-  display: inline-flex;
   float: right;
+  margin-left: auto;
 }
 
 nav ul li {
+  display: inline-flex;
   list-style-type: none;
   padding: 0 10px;
 }
+
 
 /* Main Content */
 h2 {
