@@ -4,7 +4,8 @@
   --bg-color: hsla(160, 20%, 99%, 1);
   --text-color: hsla(0, 0%, 10%, 1);
   --text-color-lighter: hsla(0, 0%, 50%, 1);
-  --accent-blue: hsla(230, 44%, 41%, 1);
+  --accent-lighter-blue: hsla(230, 44%, 60%, 1);
+  --accent-blue: hsla(230, 44%, 45%, 1);
 }
 
 
@@ -23,13 +24,13 @@
   font-family: 'Lato', sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
-  line-height: 1.4em;
+  line-height: 1.45em;
 }
 
 /* ~~~ Grid ~~~ */
 body {
   display: grid;
-  grid-template-columns: 1fr minmax(0, 8.5in) 1fr;
+  grid-template-columns: 1fr minmax(0, 10in) 1fr;
 }
 
 body * {
@@ -65,22 +66,28 @@ nav ul li {
 /* Main Content */
 h2 {
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 25px;
   font-size: 1.3em;
 }
 
 a {
   color: var(--accent-blue);
+  transition: all 0.3s ease 0s;
 }
 
 a:visited {
   color: var(--accent-blue);
 }
 
+a:hover {
+  color: var(--accent-lighter-blue);
+  cursor: pointer;
+}
+
 /* John Cena */
 .john-cena-container {
   float: right;
-  margin-left: 20px;
+  margin-left: 5vh;
 }
 
 .john-cena {
