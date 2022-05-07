@@ -28,11 +28,10 @@
   scroll-behavior: smooth;
 }
 
-html {
-  height: 100%;
-}
-
 body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -104,4 +103,11 @@ figcaption {
 .skill-logos * {
   height: 50px;
   width: 50px;
+}
+
+/* ~~~ Footer ~~~ */
+footer {
+  display: flex;
+  margin-top: auto;
+  justify-content: center;
 }
