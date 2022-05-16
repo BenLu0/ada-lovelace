@@ -8,4 +8,4 @@ It's named Ada lovelace because of the template I followed when I originally wro
 
 ## License
 
-Licensed under the MIT license, you can find the license in both the website and the repo.
+Licensed under the copyleft MIT license, you can find the terms in both the website and the repo.
